@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rabihyamani/Desktop/IBKS/WebApplication1/WebApplication1.csproj": {}
+    "/Users/rabihyamani/Desktop/IBKS/BackEnd/WebApplication1.csproj": {}
   },
   "projects": {
-    "/Users/rabihyamani/Desktop/IBKS/WebApplication1/WebApplication1.csproj": {
+    "/Users/rabihyamani/Desktop/IBKS/BackEnd/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rabihyamani/Desktop/IBKS/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "/Users/rabihyamani/Desktop/IBKS/BackEnd/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/Users/rabihyamani/Desktop/IBKS/WebApplication1/WebApplication1.csproj",
+        "projectPath": "/Users/rabihyamani/Desktop/IBKS/BackEnd/WebApplication1.csproj",
         "packagesPath": "/Users/rabihyamani/.nuget/packages/",
-        "outputPath": "/Users/rabihyamani/Desktop/IBKS/WebApplication1/obj/",
+        "outputPath": "/Users/rabihyamani/Desktop/IBKS/BackEnd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rabihyamani/.nuget/NuGet/NuGet.Config"

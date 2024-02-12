@@ -68,10 +68,13 @@ function TicketView({ ticketData }: { ticketData: any | null }) {
   const updateTicket = useCallback(
     async (updatedValues: updatedValues) => {
       try {
+        if (!updatedValues?.reply?.trim()) {
+          return;
+        }
         const newReply: TicketReply = {
           replyId: Math.random(), // Generate a unique ID for the new reply
           tId: ticketData?.id || 0, // Use the ticket ID
-          reply: updatedValues.reply || "", // Use the reply from updatedValues
+          reply: updatedValues.reply, // Use the reply from updatedValues
         };
         setReplyData((prevReplyData) => {
           if (prevReplyData) {

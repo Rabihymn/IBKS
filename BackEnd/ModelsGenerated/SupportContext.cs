@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication1.Models;
+namespace BackEnd.Models;
 
 public partial class SupportContext : DbContext
 {
